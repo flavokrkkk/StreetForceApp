@@ -28,7 +28,7 @@
 <img src="https://github.com/flavokrkkk/StreetForceApp/blob/main/scrins/2024-02-20_23-19-10.png">
 
 
-<h2>Избранные, аналогично с корзиной обернута в глобальный стейт, товары сразу же добавляются из LocalStorage, SideBar с предложенными товарами, в котором рендерятся два случайных элемента массива всех товаров</h2>
+<h2>Избранные, аналогично с корзиной обернуты в глобальный стейт, товары сразу же добавляются из LocalStorage, SideBar с предложенными товарами, в котором рендерятся два случайных элемента массива всех товаров</h2>
 <img src="https://github.com/flavokrkkk/StreetForceApp/blob/main/scrins/2023-12-26_16-54-49.png">
 <img src="https://github.com/flavokrkkk/StreetForceApp/blob/main/scrins/2024-02-20_23-16-08.png">
 
