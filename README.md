@@ -32,7 +32,20 @@
 <img src="https://github.com/flavokrkkk/StreetForceApp/blob/main/scrins/2024-02-20_23-15-50.png">
 <img src="https://github.com/flavokrkkk/StreetForceApp/blob/main/scrins/2024-02-20_23-16-08.png">
 
-<h2></h2>
+<h2>Личный кабинет пользователя, данные динамичесик должны подгружаться после регестрации</h2>
+<img src="https://github.com/flavokrkkk/StreetForceApp/blob/main/scrins/2024-02-20_23-16-36.png"/>
+
+<h2>Окно с регистрацией и авторизацией, планируется реализовать ее по JWT токену</h2>
+<img src="https://github.com/flavokrkkk/StreetForceApp/blob/main/scrins/2024-02-20_23-18-22.png"/>
+
+<h2>Меню бургер реализованное, с помощью компонента offCanvas из React-Bootstrap, также выполняются переходы по всем страницам</h2>
+<img src="https://github.com/flavokrkkk/StreetForceApp/blob/main/scrins/2024-02-20_23-17-31.png"/>
+
+<h2>Админ панель, где администратор может подгружать, новые товары и их характеристики</h2>
+<img src="https://github.com/flavokrkkk/StreetForceApp/blob/main/scrins/2024-02-21_00-36-11.png"/>
+
+<h1>Спасибо за внимание :)</h1>
+
 
 
 
