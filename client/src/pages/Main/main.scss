@@ -1,0 +1,571 @@
+.Main__Container{
+    max-width: 1350px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: .15rem;
+}
+
+.Main__Wrapper{
+    background-color: black;
+}
+
+.Main__title{
+    min-height: 521px;
+    text-align: center;
+    background-color: black;
+    color: #fff;
+}
+
+.Main__title-up{
+    padding: 74px ;
+}
+
+.Main__title-head{
+    font-size: 50px;
+    margin-top: 20px;
+   
+}
+
+.Main__title-text{
+    margin-top: 44px;
+    font-size: 2rem;
+    letter-spacing: .15rem;
+    line-height: 120%;
+}
+
+
+.Main__title-button {
+    display: inline-block;
+    cursor: pointer;
+    margin-bottom: 151px;
+    border: 1px solid #fff;
+    padding: .75rem 1.25rem;
+    border-radius: 10rem;
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: .15rem;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    &:after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #fff;
+      border-radius: 10rem;
+      z-index: -2;
+    }
+    &:before {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0%;
+      height: 100%;
+      background-color: darken(#F2F2F2, 15%);
+      transition: all .3s;
+      border-radius: 10rem;
+      z-index: -1;
+    }
+    &:hover {
+      color: #fff;
+      &:before {
+        width: 100%;
+      }
+    }
+  }
+
+  .Main__Collection-title{
+    font-size: 50px;
+    margin-top: 104px;
+    margin-bottom: 30px;
+    letter-spacing: .15rem;
+  }
+
+  .Main__Container-Card{
+    display: flex;
+    gap: 74px;
+    margin-top: 44px;
+    max-height: 320px;
+    border-radius: 20px;
+    background-color: #F2F2F2;
+    margin-bottom: 140px;
+  }
+
+  .Main__Container-Card-Item{
+    width: 361px;
+    height: 325px;
+    padding: 20px 20px 20px 20px;
+  }
+
+  .Main__Sweatshirt{
+    margin-bottom: 88px;
+  }
+
+  .Main__Sweatshirt-title{
+    font-size: 50px;
+    margin-top: 104px;
+    letter-spacing: .15rem;
+    margin-bottom: 44px;
+  }
+
+  .Main__Sweatshirt-Card-Item{
+    background-color: #F6F6F6;
+    border-radius: 20px;
+    width: 511px;
+    height: 590px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .Main__Sweatshirt-Card-Item img{
+    margin-top: 70px;
+  }
+
+  .Main__Sweatshirt-Card{
+    display: flex;
+  }
+
+  .Main__Sweatshirt-Card-Second{
+    display: flex;
+    flex-direction: column;
+ 
+    gap: 48px;
+  }
+
+  .Main__Sweatshirt-Card-Items{
+    width: 376px;
+    height: 271px;
+    text-align: center;
+    border-radius: 20px;
+    background: #F6F6F6;
+    margin-left: 48px;
+  }
+
+  .Main__Info{
+    margin-bottom: 88px;
+  }
+
+  .Main__Info-title{
+    font-size: 50px;
+    letter-spacing: .15rem;
+
+  }
+
+  .Main__Info-Block{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .Main__Info-Block-Text{
+    letter-spacing: .15rem;
+    font-size: 20px;
+    width: 550px;
+    margin-right: 20px;
+    margin-top: 30px ;
+    line-height: 130%;
+  }
+
+  .Main__Info-Wrapper{
+    display: flex;
+  }
+
+  .Footer{
+    width: 100%;
+    height: 170px;
+    background: #000;
+    text-align: center;
+    h1{
+        color: #fff;
+        font-size: 40px;
+        letter-spacing: .15rem;
+        font-family: 'Roboto', sans-serif;
+    }
+  }
+  .Footer__Item{
+    padding-top: 65px;
+  }
+
+  .Main__Sweatshirrt-Card{
+      display: none;
+  }
+
+  .Main__Info-add{
+    display: none;
+  }
+  .slide-cont{
+    display: none;
+  }
+
+
+ 
+
+
+  @media (max-width:1270px){
+      .Main__Collection-title{
+        font-size: 38px;
+      }
+      .Main__Container-Card-Item img{
+          width: 290px;
+          height: 200px;
+      }
+      .Main__Container-Card-Item{
+        width: 331px;
+        height: 242px;
+      }
+      .Main__Container-Card{
+          gap: 50px;
+          width: 1129px;
+      }
+      .Main__Sweatshirt-title {
+        font-size: 38px;
+      }
+      .Main__Sweatshirt-Card-Item {
+        width: 411px;
+        height: 410px;
+      }
+      .Main__Sweatshirt-Card-Item img {
+        width: 320px;
+        height: 300px;
+        margin-top: 50px;
+      }
+
+      .Main__Sweatshirt-Card-Items {
+        height: 231px;
+        width: 315px;
+        padding-top: 15px;
+    }
+    .Main__Sweatshirt-Card-Items img{
+      width: 240px;
+      height: 200px;
+  }
+  .Main__Info-title{
+    font-size: 38px;
+  }
+  .Main__Info-Block-Text{
+    font-size: 16px;
+    width: 469px;
+    margin-right: 174px;
+  }
+
+  .Main__Info img {
+    width: 500px;
+    height: 328px;
+  }
+  .Main__title-text{
+    font-size: 28px;
+  }
+  }
+
+  @media (max-width:1150px){
+
+    .Main__Container-Card {
+      gap: 10px;
+      width: 985px;
+  }
+  
+    .Main__Container-Card-Item {
+      width: 318px;
+      height: 242px;
+  }
+
+  .Main__Container-Card-Item img {
+    width: 285px;
+    height: 200px;
+}
+
+  .Main__Sweatshirt-Card-Items {
+    height: 231px;
+    width: 240px;
+}
+
+.Main__Info-Block-Text {
+  margin-right: 17px;
+}
+  }
+
+  @media (max-width:1150px){
+    .Main__Container-Card {
+      gap: 10px;
+      width: 743px;
+  }
+
+  .Main__Container-Card-Item {
+    width: 238px;
+    height: 207px;
+}
+.Main__Container-Card-Item img {
+  width: 210px;
+  height: 162px;
+}
+
+// .Main__Sweatshirt-Card-Item {
+//   height: 231px;
+//   width: 240px;
+// }
+// .Main__Sweatshirt-Card-Item img {
+//   margin-top: 9px;
+//   height: 207px;
+//   width: 238px;
+// }
+
+.Main__Sweatshirt-Card{
+  display: none;
+}
+.Main__Sweatshirrt-Card{
+  display: flex;
+}
+
+.Main__Sweatshirrt-Card {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+.Main__Sweatshirrt-Card-Item{
+  margin-bottom: 30px;
+}
+
+.Main__Sweatshirrt-Card-Item img{
+  border-radius: 30px;
+  width: 250px;
+  height: 200px;
+}
+
+.Main__Info{
+  display: none;
+}
+
+.Main__Info-add{
+  display: block;
+  // justify-content: center;
+}
+// .Main__Info-title-add{
+//   display: block;
+//   font-size: 38px;
+//     letter-spacing: .15rem;
+//     margin-bottom: 44px
+// }
+
+.Main__Info-add-content{
+  display: flex;
+  flex-direction: column;
+  margin-top: 44px;
+  align-items: center;
+}
+.Main__Info-add{
+  margin-bottom: 44px;
+}
+
+.Main__Info-add-content img {
+  display: flex;
+  // width: 1000px;
+  // height: 400px;
+}
+
+.Main__Info-Block-Text {
+  font-size: 16px;
+  // width: 886px;
+  // margin-right: 174px;
+  text-align: center;
+}
+
+.Main__Container-Card-Wrap{
+  display: flex;
+    justify-content: center;
+}
+.Main__Collection-title {
+  font-size: 38px;
+  /* margin: 0 auto; */
+  text-align: center;
+}
+
+.Main__Sweatshirt-title {
+  font-size: 38px;
+  text-align: center;
+}
+
+.Main__Info-title {
+  font-size: 38px;
+  text-align: center;
+}
+
+.Main__title-head {
+  font-size: 40px;
+  margin-top: 20px;
+}
+.Main__title-text {
+  font-size: 20px;
+}
+.Main__title-button {
+  font-size: 14px ;
+}
+  }
+
+
+  @media (max-width:785px){
+    .slide-cont{
+      display: block;
+      margin-left: 30px;
+    }
+    .Main__Container {
+      max-width: 713px;
+  }
+  .slide-cont img {
+    // border-radius: 30px;
+    width: 300px;
+    height: 230px;
+}
+.Main__Collection-title {
+  font-size: 38px;
+  /* margin: 0 auto; */
+  text-align: center;
+}
+.Main__Container-Card-Wrap{
+  display: none;
+}
+
+.slide-wrapper {
+  padding-left: 142px;
+  padding-right: 176px;
+}
+.Footer__shop-cooperation{
+  text-align: center;
+}
+  
+  }
+
+  @media (max-width:665px){
+    .Main__Sweatshirrt-Card {
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Main__Sweatshirt-title {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .Main__Info-add-content img {
+        display: flex;
+        width: 349px;
+        height: 200px;
+    }
+
+    .Main__Info-title {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .Main__Info-Block-Text {
+        font-size: 13px;
+        text-align: center;
+        width: 311px;
+    }
+
+    .slide-wrapper {
+      padding-left: 0px;
+      padding-right: 0px;
+      max-width: 307px;
+      margin-right: 30px;
+  }
+
+  .slide-wrapper img {
+    width: 270px;
+}
+.Main__Collection{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Main__Collection-title {
+  font-size: 32px;
+  /* margin: 0 auto; */
+  text-align: center;
+}
+.Main__title-head {
+  font-size: 23px;
+  margin-top: 20px;
+}
+.Main__title-text {
+  font-size: 10px;
+}
+.Main__title-button {
+  font-size: 9px;
+}
+
+
+}
+
+@media (max-width:320px){
+
+  .Main__Info-add-content img {
+    display: flex;
+    width: 300px;
+    height: 200px;
+}
+.Main__Collection-title {
+  font-size: 25px;
+  /* margin: 0 auto; */
+  text-align: center;
+}
+
+.slide-wrapper {
+  padding-left: 0px;
+  padding-right: 0px;
+  max-width: 298px;
+  margin-right: 30px;
+}
+
+.Main__title-head {
+  font-size: 18px;
+  margin-top: 20px;
+}
+.Main__title-text {
+  font-size: 8px;
+}
+
+.Main__Info-Block-Text {
+  font-size: 12px;
+  text-align: center;
+  width: 295px;
+}
+}
+
+@media (max-width: 430px){
+
+.slide-wrapper {
+    padding-left: 0px;
+    padding-right: 0px;
+    max-width: 309px;
+    margin-right: 30px;
+
+  }
+  .Main__Collection-title {
+    font-size: 28px;
+    /* margin: 0 auto; */
+    text-align: center;
+}
+}
+
+@media (max-width: 414px){
+.slide-wrapper {
+    padding-left: 0px;
+    padding-right: 0px;
+    max-width: 301px;
+    margin-right: 30px;
+  }
+}
+@media (max-width: 768px){
+  .Main__Container {
+    max-width: 655px;
+}
+}
+
