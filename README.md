@@ -16,17 +16,19 @@
 <img src="https://github.com/flavokrkkk/StreetForceApp/blob/main/scrins/2024-02-20_23-14-04.png">
 
 
-<h2>Страница с характеристиками каждого товара, при get запросе на сервере указывается '/:id' товара и подгрузка характеристик с бд, с возможностью добавить товар в корзину или избранные, а также выбрать размер и реализованный слайдер с помощбю компонента Carousel из
+<h2>Страница с характеристиками каждого товара, при get запросе на сервере указывается '/:id' товара и подгрузка характеристик с бд, с возможностью добавить товар в корзину или избранные, а также выбрать размер и реализованный слайдер с помощью компонента Carousel из
   React-Bootstrap
 </h2>
 <img src="https://github.com/flavokrkkk/StreetForceApp/blob/main/scrins/2024-02-20_23-14-57.png">
 <img src="https://github.com/flavokrkkk/StreetForceApp/blob/main/scrins/2024-02-20_23-15-15.png">
 
 
-<h2>Страничка Blog, где пользовтели будут делится своими впечатлениями о фильмах и читать посты о премьерах</h2>
-<img src="https://github.com/flavokrkkk/StreetForceApp/blob/main/scrins/2024-02-20_23-14-57.png">
-<img src="https://github.com/flavokrkkk/StreetForceApp/blob/main/scrins/2024-02-20_23-15-15.png">
+<h2>Корзина пользователя, которая обернута в глобальное состояние и вычисление итоговой цены корзины</h2>
+<img src="https://github.com/flavokrkkk/StreetForceApp/blob/main/scrins/2024-02-20_23-15-22.png">
+<img src="https://github.com/flavokrkkk/StreetForceApp/blob/main/scrins/2024-02-20_23-19-10.png">
 
 
-<h2>Страничка обратной связи, где пользователи могут посодействовать в разработке этого сайта</h2>
+<h2>Избранные, аналогично с корзиной обернута в глобальный стейт, товары сразу же добавляются из LocalStorage, SideBar с предложенными товарами, в котором рендерятся два случайных элемента массива всех товаров</h2>
 <img src="https://github.com/flavokrkkk/StreetForceApp/blob/main/scrins/2023-12-26_16-54-49.png">
+<img src="https://github.com/flavokrkkk/StreetForceApp/blob/main/scrins/2024-02-20_23-16-08.png">
+
