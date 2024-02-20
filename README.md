@@ -16,11 +16,13 @@
 <img src="https://github.com/flavokrkkk/StreetForceApp/blob/main/scrins/2024-02-20_23-14-04.png">
 
 
-<h2>Страничка About, где показаны фрагменты фильмов, игр с их описанием</h2>
+<h2>Страница с характеристиками каждого товара, при get запросе на сервере указывается '/:id' товара и подгрузка характеристик с бд, с возможностью добавить товар в корзину или избранные, а также выбрать размер</h2>
 <img src="https://github.com/flavokrkkk/StreetForceApp/blob/main/scrins/2023-12-26_16-53-12.png">
 
 <h2>Страничка Blog, где пользовтели будут делится своими впечатлениями о фильмах и читать посты о премьерах</h2>
-<img src="https://github.com/flavokrkkk/StreetForceApp/blob/main/scrins/2023-12-26_16-53-44.png">
+<img src="https://github.com/flavokrkkk/StreetForceApp/blob/main/scrins/2024-02-20_23-14-57.png">
+<img src="https://github.com/flavokrkkk/StreetForceApp/blob/main/scrins/2024-02-20_23-15-15.png">
+
 
 <h2>Страничка обратной связи, где пользователи могут посодействовать в разработке этого сайта</h2>
 <img src="https://github.com/flavokrkkk/StreetForceApp/blob/main/scrins/2023-12-26_16-54-49.png">
