@@ -8,7 +8,9 @@
 
 <h2>Основной Лендинг приложения, где в кратких частях описан магазин, при адаптации на 560px, добавляется SlickSlider</h2>
 <img src="https://github.com/flavokrkkk/StreetForceApp/blob/main/scrins/2024-02-20_23-13-36.png">
-<img src="https://github.com/flavokrkkk/StreetForceApp/blob/main/scrins/2024-02-20_23-16-52.png">
+<div style={{text-align: 'center'}>
+  <img src="https://github.com/flavokrkkk/StreetForceApp/blob/main/scrins/2024-02-20_23-16-52.png">
+</div>
 
 
 <h2>Карточки внизу слайдера с описанием недавно вышедших фильмов</h2>
