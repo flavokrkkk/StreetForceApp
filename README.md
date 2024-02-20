@@ -32,7 +32,7 @@
 <img src="https://github.com/flavokrkkk/StreetForceApp/blob/main/scrins/2024-02-20_23-15-50.png">
 <img src="https://github.com/flavokrkkk/StreetForceApp/blob/main/scrins/2024-02-20_23-16-08.png">
 
-<h2>Личный кабинет пользователя, данные динамичесик должны подгружаться после регестрации</h2>
+<h2>Личный кабинет пользователя, данные динамичесик должны подгружаться после регестрации и боковая панель с контактами</h2>
 <img src="https://github.com/flavokrkkk/StreetForceApp/blob/main/scrins/2024-02-20_23-16-36.png"/>
 
 <h2>Окно с регистрацией и авторизацией, планируется реализовать ее по JWT токену</h2>
